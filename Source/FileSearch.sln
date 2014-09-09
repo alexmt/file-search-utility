@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSearch.Presentation", "FileSearch.Presentation\FileSearch.Presentation.csproj", "{17E563A8-5209-48BA-9855-83516FE3ACC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSearch.Common", "FileSearch.Common\FileSearch.Common.csproj", "{42F79D9F-A9C8-4F57-BDC0-5F79252DAA49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSearch", "FileSearch\FileSearch.csproj", "{3B4DE660-0BED-47F8-81C6-B893E4FD4AF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{2A73F0AD-CEB1-405D-A541-1851715BCD4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSearch.TextSearch", "FileSearch.TextSearch\FileSearch.TextSearch.csproj", "{6BAAF76B-C823-4959-8DBD-8FB3E7A8B63D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSearch.XmlSearch", "FileSearch.XmlSearch\FileSearch.XmlSearch.csproj", "{D179574D-DC43-4B9E-B35F-6B1714D5F7AD}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/TFS24
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = FileSearch.Common\\FileSearch.Common.csproj
+		SccProjectName1 = FileSearch.Common
+		SccLocalPath1 = FileSearch.Common
+		SccProjectUniqueName2 = FileSearch.Presentation\\FileSearch.Presentation.csproj
+		SccProjectName2 = FileSearch.Presentation
+		SccLocalPath2 = FileSearch.Presentation
+		SccProjectUniqueName3 = FileSearch.TextSearch\\FileSearch.TextSearch.csproj
+		SccProjectTopLevelParentUniqueName3 = FileSearch.sln
+		SccProjectName3 = FileSearch.TextSearch
+		SccLocalPath3 = FileSearch.TextSearch
+		SccProjectUniqueName4 = FileSearch.XmlSearch\\FileSearch.XmlSearch.csproj
+		SccProjectTopLevelParentUniqueName4 = FileSearch.sln
+		SccProjectName4 = FileSearch.XmlSearch
+		SccLocalPath4 = FileSearch.XmlSearch
+		SccProjectUniqueName5 = FileSearch\\FileSearch.csproj
+		SccProjectName5 = FileSearch
+		SccLocalPath5 = FileSearch
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17E563A8-5209-48BA-9855-83516FE3ACC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17E563A8-5209-48BA-9855-83516FE3ACC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17E563A8-5209-48BA-9855-83516FE3ACC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17E563A8-5209-48BA-9855-83516FE3ACC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42F79D9F-A9C8-4F57-BDC0-5F79252DAA49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42F79D9F-A9C8-4F57-BDC0-5F79252DAA49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42F79D9F-A9C8-4F57-BDC0-5F79252DAA49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42F79D9F-A9C8-4F57-BDC0-5F79252DAA49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B4DE660-0BED-47F8-81C6-B893E4FD4AF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B4DE660-0BED-47F8-81C6-B893E4FD4AF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B4DE660-0BED-47F8-81C6-B893E4FD4AF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B4DE660-0BED-47F8-81C6-B893E4FD4AF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BAAF76B-C823-4959-8DBD-8FB3E7A8B63D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BAAF76B-C823-4959-8DBD-8FB3E7A8B63D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BAAF76B-C823-4959-8DBD-8FB3E7A8B63D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BAAF76B-C823-4959-8DBD-8FB3E7A8B63D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D179574D-DC43-4B9E-B35F-6B1714D5F7AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D179574D-DC43-4B9E-B35F-6B1714D5F7AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D179574D-DC43-4B9E-B35F-6B1714D5F7AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D179574D-DC43-4B9E-B35F-6B1714D5F7AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6BAAF76B-C823-4959-8DBD-8FB3E7A8B63D} = {2A73F0AD-CEB1-405D-A541-1851715BCD4B}
+		{D179574D-DC43-4B9E-B35F-6B1714D5F7AD} = {2A73F0AD-CEB1-405D-A541-1851715BCD4B}
+	EndGlobalSection
+EndGlobal
